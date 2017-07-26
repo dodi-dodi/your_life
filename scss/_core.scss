@@ -1,0 +1,243 @@
+/*HEADER*/
+.header-background {
+  background-image: url("http://dorotka.esy.es/layout4/images/hedaer-background.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+.navbar-transparent {
+  background-color: transparent;
+  border-bottom: 0;
+}
+
+.navbar-collapse {
+  text-align: center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  margin-top: 15px;
+  li {
+    margin-left: 10px;
+    margin-right: 10px;
+    a {
+      font-size: 20px;
+      color: $color-default;
+      font-weight: bold;
+      &:hover {
+        color: $color-extra;
+      }
+    }
+  }
+}
+
+.image-brand {
+  margin-top: -8px;
+}
+
+.background-black {
+  background-color: #343434;
+}
+
+/*JUMBOTRON*/
+.jumbotron-background {
+  background-color: transparent;
+  h1 {
+    color: $color-default;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+  }
+  p {
+    color: $color-default;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+.btn-green {
+  font-size: 15px;
+  &:hover {
+    background-color: $color-default;
+    color: $color-extra;
+  }
+}
+
+.vertical-align-wrapper {
+  display: table;
+  height: 100vh;
+}
+
+.vertical-align-element {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.social-buttons {
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  margin: 10px;
+}
+
+.icon-btn {
+  color: $color-default;
+  margin-right: 15px;
+  &:hover {
+    color: $color-extra;
+  }
+}
+
+/*PHOTOAPP*/
+.photoapp {
+  min-height: 500px;
+  background-color: #f5f6f7;
+  h2 {
+    padding-top: 50px;
+  }
+  p {
+    padding-bottom: 50px;
+  }
+  img {
+    position: relative;
+    top: 50px;
+  }
+}
+
+/*SLIDER*/
+.owl-theme .owl-nav [class*=owl-] {
+  padding: 4px 2px;
+  background: transparent;
+  color: black;
+  float: left;
+  &:hover {
+    background: transparent;
+    color: black;
+  }
+}
+
+.slider {
+  span {
+    position: relative;
+    top: 5px;
+    left: 10px;
+  }
+}
+
+.btn-margin {
+  margin-bottom: 30px;
+}
+
+/*OUR-COMMUNITY-SLIDERr*/
+//noinspection SassScssResolvedByNameOnly
+.our-community-slider {
+  background-color: $color-background;
+}
+
+.spacing {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+/*JUMBOTRON-2*/
+.jumbotron-2 {
+  background-image: url("http://dorotka.esy.es/layout4/images/header2-min.png");
+  background-size: cover;
+  background-position: center center;
+  height: 700px;
+  h3 {
+    color: $color-default;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
+
+.vertical-align-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group-width {
+  width: 300px;
+  margin: auto;
+}
+
+.form-control-height {
+  height: 50px;
+}
+
+.btn-size {
+  height: 50px;
+  width: 50px;
+  .fa-size {
+    font-size: 20px;
+  }
+}
+
+/*DOWNLOAD*/
+.download {
+  padding: 100px 0;
+  margin-bottom: 50px;
+  background-color: $color-background;
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 40px;
+  }
+}
+
+.btn-store {
+  height: 60px;
+  background: #00bc9a;
+  position: relative;
+  border: 0;
+  span {
+    display: inline-block;
+    width: 250px;
+    font-size: 16px;
+    color: $color-default;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 500;
+  }
+  .fa-store {
+    width: 60px;
+    background: #009c85;
+    line-height: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: $color-default;
+  }
+}
+
+/*FOOTER*/
+footer {
+  padding-bottom: 50px;
+  .links {
+    a {
+      color: #373737;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    span {
+      color: $color-extra;
+      font-weight: bold;
+      margin: 2px;
+    }
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
