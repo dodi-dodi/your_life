@@ -17,7 +17,7 @@ const
 // source files and directories
 var src = {
     scss: 'scss/*.scss',
-    scss_index: 'scss/layout4.scss',
+    scss_index: 'scss/main.scss',
     css: '.',
     html: '*.html'
 };
