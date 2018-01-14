@@ -1,6 +1,6 @@
 /*HEADER*/
 .header-background {
-  background-image: url("http://dorotka.esy.es/layout4/images/hedaer-background.jpg");
+  background-image: url("/images/hedaer-background-min.jpg");
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -92,7 +92,7 @@
 
 /*PHOTOAPP*/
 .photoapp {
-  min-height: 500px;
+  min-height: 405px;
   background-color: #f5f6f7;
   h2 {
     padding-top: 50px;
@@ -119,6 +119,7 @@
 }
 
 .slider {
+  padding-top: 90px;
   span {
     position: relative;
     top: 5px;
@@ -134,16 +135,13 @@
 //noinspection SassScssResolvedByNameOnly
 .our-community-slider {
   background-color: $color-background;
-}
-
-.spacing {
   padding-top: 90px;
   padding-bottom: 90px;
 }
 
 /*JUMBOTRON-2*/
 .jumbotron-2 {
-  background-image: url("http://dorotka.esy.es/layout4/images/header2-min.png");
+  background-image: url("/images/header2-min-min.png");
   background-size: cover;
   background-position: center center;
   height: 700px;
